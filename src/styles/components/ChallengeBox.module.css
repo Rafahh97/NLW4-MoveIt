@@ -49,7 +49,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 .challengeActive main strong {
@@ -60,6 +60,10 @@
 }
 .challengeActive main p{
     line-height: 1.5;
+}
+.challengeActive main img{
+    width: 10rem;
+    height: 10rem;
 }
 .challengeActive footer {
     display: grid;
@@ -79,6 +83,7 @@
     color: var(--white);
     font-size: 1rem;
     font-weight: 600;
+    transition: filter 0.2s;
 }
 .challengeActive footer button.challengeFailedButton {
     background-color: var(--red); 
